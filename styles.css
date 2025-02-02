@@ -1,0 +1,40 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #343a40 !important;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.social-links a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff !important;
+}
