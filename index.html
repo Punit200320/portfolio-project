@@ -1,42 +1,138 @@
-<!-- 🎥 My YouTube Videos Section -->
-<section id="youtube" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center mb-4">My YouTube Videos</h2>
-
-        <div class="row">
-
-            <!-- Video 1 -->
-            <div class="col-md-3 col-12 mb-4">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/_tYYl56Csg8" 
-                            title="YouTube video 1" allowfullscreen></iframe>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Student Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-
-            <!-- Video 2 -->
-            <div class="col-md-3 col-12 mb-4">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/wYwXXCEc_t8" 
-                            title="YouTube video 2" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Video 3 -->
-            <div class="col-md-3 col-12 mb-4">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/JEU5Psiv8W0" 
-                            title="YouTube video 3" allowfullscreen></iframe>
-                </div>
-            </div>
-
-            <!-- Video 4 -->
-            <div class="col-md-3 col-12 mb-4">
-                <div class="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/bV3dzaO5SqE" 
-                            title="YouTube video 4" allowfullscreen></iframe>
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Hi, I'm Punit Chandel, a passionate student with a love for technology and design.</p>
+            <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+            <div class="social-links mt-4">
+                <a href="https://github.com/Punit200320" target="_blank" class="text-white me-3"><i class="fab fa-github fa-2x"></i></a>
+                <a href="mailto:punitchandel@gmail.com" target="_blank" class="text-white me-3"><i class="fas fa-envelope fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/punit-chandel-aa1931288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/punit_chandel2004/" target="_blank" class="text-white"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="port2.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <p>Hello! I'm Punit Chandel, a student at IIPS DAVV. I have a strong interest in CHESS, and I'm always eager to learn new things. I enjoy working on projects that challenge me and help me grow as a professional.</p>
+                    <p>In my free time, I like to  reading. I believe in continuous learning and strive to improve my skills every day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap, React</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Programming</h3>
+                    <p>Python, Java, C++, SQL</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3>Design</h3>
+                    <p>UI/UX Design, Figma, Adobe XD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">CRUD OPERATION</h5>
+                            <p class="card-text">This project showcases a simple CRUD application built with HTML, CSS, and JavaScript, allowing users to create, reset, update, and delete items seamlessly in a dynamic interface.</p>
+                            <a href="https://github.com/Punit200320/CRUD-by-js" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Library-Management-System-
+                               
+                                </h5>
+                            <p class="card-text">The Library Management System project offers a comprehensive solution for managing library operations, enabling users to easily track, borrow, and return books while maintaining efficient records and enhancing user accessibility.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+  
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Punit Chandel. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html> 
